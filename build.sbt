@@ -29,7 +29,7 @@ scalacOptions := Seq(
   "-Xfuture")
 
 libraryDependencies ++= Seq(
-  "de.svenkubiak" % "jBCrypt" % "0.4.1",
+  "com.github.PWAckerman" %% "jBCrypt" % "0.4",
   "org.scalatest" %% "scalatest" % "3.0.3" % Test)
 
 pomExtra in Global := {
